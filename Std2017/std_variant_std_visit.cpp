@@ -6,7 +6,7 @@ using namespace std;
 struct TimesTwoVisitor {
   void operator()(int& n)
   {
-    n *= 2;
+    n *= 3;
   }
 
   void operator()(std::string& s)
